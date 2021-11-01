@@ -22,24 +22,24 @@ This page is a milestone project to become a Full Stack Developer. The course is
 ![Responsice Mockup]()
 
 ## Features
-
+The features on this page are coded in a way so the user can navigate anywhere with just 1 click. The navigationbar and footer are therefore in all pages and identical designed.
 ### Existing Features
 
 - __Navigation Bar__
 
-    -Is featured on all pages for easy navigation and making the design easy to recognize.
+    Is featured on all pages for easy navigation and making the design easy to recognize.
 - __Footer__
 
-    -Text
+    Text
 - __Landing Page__
 
-    -Text
+    Text
 - __About Me Page__
 
-    -Text
+    Text
 - __Contact page__
 
-    -Text
+    Text
 
 
 ## Technologies
@@ -56,7 +56,14 @@ This page is a milestone project to become a Full Stack Developer. The course is
 ## User Experience (UX)
 
 ## Testing
+- __Validator__
+    - WC3
+    - Jigsaw
 
 ## Credit
+- __Code__
+- __Content__
+- __Media__
+- __Acknowledgement__
 
 - [@linushf](https://www.github.com/linushf)
