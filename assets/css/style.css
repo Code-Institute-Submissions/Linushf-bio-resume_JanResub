@@ -9,4 +9,20 @@
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
+    color: #68788C;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+    background-color: #F2E205;
+    width: 33%
 }
