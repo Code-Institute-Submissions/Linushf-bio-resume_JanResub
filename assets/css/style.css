@@ -22,7 +22,40 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 200%;
-    background-color: #F2E205;
-    width: 33%
+    text-align: center;
+    font-size: 180%;
+    background-color: #F2EEB3;
+    width: 33%;
+    color: #68788C;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;  
+    text-transform: lowercase;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    text-transform: uppercase;
+}
+
+.active {
+    text-transform: uppercase;
 }
