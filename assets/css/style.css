@@ -89,3 +89,14 @@ h1, h2 {
     background-color: #F2EEB3;
     float: right;
 }
+
+/* tabs */
+
+.tabs {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+  }
