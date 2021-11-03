@@ -71,6 +71,7 @@ h1, h2 {
 }
 
 .one-third-width-column {
+    margin-top: 20px;
     width: 33.33%;
     display: inline-block;
 }
@@ -78,6 +79,7 @@ h1, h2 {
 /* text box */
 
 .two-thirds-width-column {
+    margin-top: 20px;
     width: 66.66%;
     height: 600px;
     background-color: #F2EEB3;
