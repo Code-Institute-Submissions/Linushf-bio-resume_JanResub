@@ -80,7 +80,7 @@ h1, h2 {
     float: left;
 }
 
-/* text box */
+/* text box for tabs */
 
 .two-thirds-width-column {
     margin-top: 20px;
@@ -95,8 +95,70 @@ h1, h2 {
 .tabs {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     position: relative;
-    left: 10%;
-    top: 10%;
-    width: 80%;
-    height: 80%;
+    margin: 20px 20px 0 20px;
+    height: 100%;
+  }
+
+  label, #slider {
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    background: #F2D64B;
+    user-select: none;
+    width: 32.5%;
+    height: auto;
+    padding: 20px 30px;    
+  }
+
+  label:hover {
+    color: white;
+  }
+
+  .content {
+    position: relative;
+    top: 56px; right: 0; bottom: 0; left: 0;
+    background: white;
+    display: none;
+    min-height: 300px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 35px;
+    padding: 20px;
+   
+  }
+
+  #slider {
+    background-color: transparent;
+    position: relative;
+    display: block;
+    border-top: 3px solid white;
+    margin: 7px 10px;
+    transition: transform 0.5s;
+    width: 30%;
+  }
+
+  /* functions for tabs and slider */
+
+  [type=radio],#r1:checked ~ #slider {
+    transform: translate(0px, 0px);
+  }
+   
+  [type=radio],#r2:checked ~ #slider {
+    transform: translate(110%, 0px);
+  }
+   
+  [type=radio],#r3:checked ~ #slider {
+    transform: translate(220%, 0px);
+  }
+   
+  [type=radio]:checked + label {
+    color: white;
+  }
+   
+  [type=radio]:checked + label + .content {
+    display: inline-block;
+  }
+
+  .tabs [type=radio] {
+    display: none;   
   }
