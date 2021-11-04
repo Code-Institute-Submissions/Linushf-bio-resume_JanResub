@@ -170,12 +170,31 @@ h1, h2 {
   }
 
   /* footer */
+
   footer {
     position: fixed;
     width: 100%;
     left: 0;
     bottom: 0;
-    height: 10px;
-    background-color: #979DA6;
-    padding:40px 0;
+    height: auto;
+    background-color: #68788C;
+    color: #F2EEB3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .socials {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+  }
+
+  .socials a {
+    padding: 5px;
+    font-size: 2rem;
+    color: #F2EEB3;
+    margin: 0 20px;
   }
