@@ -202,3 +202,33 @@ h1, h2 {
     color: #F2EEB3;
     margin: 0 20px;
   }
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+  #menu {
+    clear: both;
+    display: block;
+  }
+
+  #portrait-pic {
+    top: 130px;
+  }
+
+  #logo {
+    width: 100%;
+  }
+}
+
+/* For smaller screen sizes from 600px wide and down */
+@media screen and (max-width: 600px) {
+
+
+  #portrait-pic {
+    display: none;
+  }
+
+
+  .two-thirds-width-column {
+    width: 100%;
+  }
+}
