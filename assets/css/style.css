@@ -10,6 +10,7 @@ body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #68788C;
+    height: 100vh;
 }
 
 .text-center {
@@ -52,8 +53,8 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;  
-    text-transform: lowercase;
     margin-right: 30px;
+    text-transform: lowercase;
 }
 
 #menu a {
@@ -77,9 +78,10 @@ h1, h2 {
 
 #portrait-pic {
     background: url("../images/rsz_2portrait.png") no-repeat center center;
-    height: 600px;
+    height: 550px;
+    position: absolute;
+    left: 0;
     width: 33.33%;
-    display: inline-block;
 }
 
 .one-third-width-column {
@@ -91,9 +93,8 @@ h1, h2 {
 /* tab area */
 
 .two-thirds-width-column {
-    margin-top: 20px;
     width: 66.66%;
-    height: 600px;
+    height: 550px;
     background-color: #F2EEB3;
     float: right;
 }
@@ -101,7 +102,7 @@ h1, h2 {
 /* tabs */
 
 .tabs {
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
     position: relative;
     margin: 20px 20px 0 20px;
     height: 100%;
@@ -124,6 +125,7 @@ h1, h2 {
 
   .content {
     position: absolute;
+    font-weight: normal;
     top: 42px; right: 0; bottom: 0; left: 0;
     background: white;
     display: none;
@@ -131,6 +133,8 @@ h1, h2 {
     box-shadow: 2px 2px 8px rgba(151, 157, 166, 0.5);
     margin-top: 35px;
     padding: 20px;
+    overflow-y: auto;
+    height: 300px;
   }
 
   #slider {
