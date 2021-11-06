@@ -146,6 +146,24 @@ h1, h2 {
     transition: transform 0.5s;
     width: 30%;
   }
+  
+/* Table in Home - download tab */
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #979DA6;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #F2EEB3;
+}
 
 /* Thumbnail pictures in about me section */
 
