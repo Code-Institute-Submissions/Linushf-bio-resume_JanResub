@@ -78,10 +78,11 @@ h1, h2 {
 
 #portrait-pic {
     background: url("../images/rsz_2portrait.png") no-repeat center center;
-    height: 550px;
+    height: 100vh;
     position: absolute;
     left: 0;
     width: 33.33%;
+    background-color: #F2EEB3;
 }
 
 .one-third-width-column {
@@ -224,7 +225,6 @@ h1, h2 {
 
   #portrait-pic {
     top: 150px;
-    
   }
 
   #logo {
