@@ -17,6 +17,15 @@ body {
   text-align: center;
 }
 
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+.no-decoration:hover {
+  color: #979DA6;
+}
+
 /* headings and logo */
 
 header, nav {
@@ -199,7 +208,7 @@ tr:nth-child(even) {
 }
 
 #socials-tab a:hover {
-  color: #F2E205;
+  color: #979DA6;
 }
 
   /* functions for tabs and slider */
