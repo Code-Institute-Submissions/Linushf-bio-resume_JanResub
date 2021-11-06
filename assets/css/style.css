@@ -147,6 +147,19 @@ h1, h2 {
     width: 30%;
   }
 
+/* Thumbnail pictures in about me section */
+
+#about-me-pictures {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px; 
+  width: 150px;
+}
+
+#about-me-pictures:hover {
+  border: 1px solid #68788C;
+}
+
   /* functions for tabs and slider */
 
   [type=radio],#r1:checked ~ #slider {
