@@ -52,6 +52,8 @@ The features on this page are coded in a way so the user can navigate anywhere w
     - Font Awesome
     - Google Fonts
     - Adobe Color
+    - W3 School
+    - CodeConvey
 
 ## User Experience (UX)
 
@@ -62,6 +64,7 @@ The features on this page are coded in a way so the user can navigate anywhere w
 
 ## Credit
 - __Code__
+- In order to create a functional and good looking tab CSS i got inspiration from [CodeConvey](https://codeconvey.com/animated-content-tabs-with-css3/) and table for downloadable files (in Home -> right tab) was inspired by table I found on [W3 Schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro)
 - __Content__
 - __Media__
 - __Acknowledgement__
