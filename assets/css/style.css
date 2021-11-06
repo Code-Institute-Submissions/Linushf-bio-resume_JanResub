@@ -74,6 +74,10 @@ h1, h2 {
     text-transform: uppercase;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 /* portrait picture */
 
 #portrait-pic {
@@ -147,7 +151,7 @@ h1, h2 {
     width: 30%;
   }
   
-/* Table in Home - download tab */
+/* Table in Home - download and projects */
 
 table {
   margin-top: 20px;
@@ -163,12 +167,6 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #F2EEB3;
-}
-
-/* Quote tab */
-
-.qoute {
-  
 }
 
 /* Thumbnail pictures in about me section */
@@ -198,7 +196,10 @@ tr:nth-child(even) {
   font-size: 200%;
   color: #68788C;
   padding: 5px;
+}
 
+#socials-tab a:hover {
+  color: #F2E205;
 }
 
   /* functions for tabs and slider */
@@ -256,6 +257,11 @@ tr:nth-child(even) {
     color: #F2EEB3;
     margin: 0 20px;
   }
+
+  .socials a:hover {
+    color: #F2E205;
+  }
+  
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
