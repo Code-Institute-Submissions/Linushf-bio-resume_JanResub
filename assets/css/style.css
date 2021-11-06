@@ -291,6 +291,13 @@ tr:nth-child(even) {
 /* For smaller screen sizes from 600px wide and down */
 @media screen and (max-width: 600px) {
 
+  label {
+    width: 32.3%;
+  }
+
+  #menu {
+    letter-spacing: 0;
+  }
 
   #portrait-pic {
     display: none;
