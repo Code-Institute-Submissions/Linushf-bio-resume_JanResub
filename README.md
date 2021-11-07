@@ -66,7 +66,9 @@ The features on this page are coded in a way so the user can navigate anywhere w
     - HTML - WC3 - no errors was returned when passing through the official W3C Validator
     ![W3C validator test](assets/images/W3c-html.png "W3C validator test")
     - CSS - Jigsaw - no errors was returned when passing through the official (jigsaw) Validator
-    - Accessibility - I generated a report i devtool lighthouse to make sure that colors and fonts are easy to read and accessible. 
+    - Accessibility - I generated a report in devtool lighthouse to make sure that colors and fonts are easy to read and accessible.
+    
+    
     ![W3C validator test](assets/images/lighthouse.png "Lighthouse test")
 
 - __Browsers__
@@ -81,6 +83,7 @@ The features on this page are coded in a way so the user can navigate anywhere w
     - Text is written by myself.
 - __Media__
     - Pictures on site are my own, picture on top of this README is generated from. [Am I Responsive](http://ami.responsivedesign.is/)
+    - Video is embeded from [YouTube](http://www.youtube.com/)
     - Colors on this page is a set of colors that i found on Adobe Colors [webpage](https://color.adobe.com/ "Adobe Colors") 
 - __Acknowledgement__
     - Code institute tutor service has help me a lot when i was faceing issues with coding and design.
