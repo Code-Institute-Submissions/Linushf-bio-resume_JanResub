@@ -59,14 +59,19 @@ The features on this page are coded in a way so the user can navigate anywhere w
 
 ## Testing
 - __Validator__
-    - WC3
-    - Jigsaw
+    - WC3 - no errors was returned when passing through the official W3C Validator
+    ![W3C validator test](assets/images/W3c-html.png "W3C validator test")
+    - Jigsaw - no errors was returned when passing through the official (jigsaw) Validator
+    - Accessibility - I generated a report i devtool lighthouse to make sure that colors and fonts are easy to read and accessible. 
+    ![W3C validator test](assets/images/lighthouse.png "Lighthouse test")
 
 ## Credit
 - __Code__
-- In order to create a functional and good looking tab CSS i got inspiration from [CodeConvey](https://codeconvey.com/animated-content-tabs-with-css3/) and table for downloadable files (in Home -> right tab) was inspired by table I found on [W3 Schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro)
+    - In order to create a functional and good looking tab CSS i got inspiration from [CodeConvey](https://codeconvey.com/animated-content-tabs-with-css3/) and table for downloadable files (in Home -> right tab) was inspired by table I found on [W3 Schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro)
 - __Content__
+    - Text is written by myself.
 - __Media__
+    - Pictures on site are my own. 
 - __Acknowledgement__
-
+    - Code institute tutor service has help me a lot when i was faceing issues with coding and design.
 - [@linushf](https://www.github.com/linushf)
