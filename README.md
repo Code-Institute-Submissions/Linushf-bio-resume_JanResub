@@ -4,9 +4,12 @@
 
 ## Table of contents
 * [General info](#general-info)
+* [User stories](#user-stories)
 * [Features](#features)
 * [Technologies](#technologies)
+* [Wireframes](#wireframes)
 * [Testing](#testing)
+* [Deployment](#deployment)
 * [Credit](#credit)
 
 
@@ -19,6 +22,9 @@ The purpose is to get in contact with potential employers and show off my work.
 This page is a milestone project to become a Full Stack Developer. The course is provided by [Code Inistitute](https://codeinstitute.net/).
 
 ![Responsice Mockup](docs/tests/amiresp.png "Resonsive mockup picture")
+
+## User stories
+As visiting user, I would like to know the professional experience of site ower
 
 ## Features
 The features on this page are coded in a way so the user can navigate anywhere with just 1 click. The navigation bar and footer are therefore on all pages and identically  designed.
@@ -47,23 +53,35 @@ The features on this page are coded in a way so the user can navigate anywhere w
     The page is provided with three tabs. Super easy - one tab for e-mail, one for telephone number, and one for social media. 
     ![Contact page](docs/screenshots/contact.png "Contact page")
 
+### Future features
+There are some more features that I would've like to add if I had more time.
+- __Contact me form__
+
+    For potential employers to contact me.
+- __Picture slides__
+
+    An easier way to view pictures of me would be to have a slide show instead of having the pictures as pop-ups.
 
 ## Technologies
 - __Languages__
     - HTML5
     - CSS3
 - __Framework, Libaries & Programs Used__
-    - Git
-    - Github
-    - Font Awesome
-    - Google Fonts
-    - Adobe Color
-    - W3 School
-    - CodeConvey
+    - Git - for the workspace 
+    - Github - for the deployment
+    - Font Awesome - for the symbols
+    - Google Fonts - for the fonts
+    - Adobe Color - for the color scheme
+    - W3 School - for tables
+    - CodeConvey - for the tab funtion
+
+## Wireframes
+I used Balsamiq to bulid these wiresframes.
+    ![Wireframes](docs/tests/wireframes.png "Wireframes")
 
 ## Testing
 - __Validator__
-    - HTML - WC3 - no errors were returned when passing through the official W3C Validator
+    - HTML - WC3 - no errors were returned when passing all pages through the official W3C Validator
     ![W3C validator test](docs/tests/W3c-html.png "W3C validator test")
     - CSS - Jigsaw - no errors were returned when passing through the official (jigsaw) Validator
     - Accessibility - I generated a report in devtool lighthouse to make sure that colors and fonts are easy to read and accessible.
@@ -71,10 +89,21 @@ The features on this page are coded in a way so the user can navigate anywhere w
     
     ![W3C validator test](docs/tests/lighthouse.png "Lighthouse test")
 
+- __Test cases__
+
+- __Fixed bugs__
+
 - __Browsers__
     - I have tested that this page works when using different web browsers such as Safari, Chrome, Firefox, and Edge. 
 - __Responsiveness__ 
     - I have confirmed that the design is responsive and all functions work on different screen sizes. 
+
+## Deployment
+
+- __Gitpod__
+
+
+- __GitHub pages__
 
 ## Credit
 - __Code__
