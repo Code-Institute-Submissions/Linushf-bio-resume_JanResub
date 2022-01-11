@@ -13,6 +13,7 @@
 
 <body>
     <header>
+        <!-- Header with links to 'home', 'about me' and 'contact' page -->
         <a href="index.html">
             <h1 id="logo">I'm Linus</h1>
         </a>
@@ -31,10 +32,16 @@
         </nav>
     </header>
     <section>
+        <!-- Portrait picture -->
         <div id="portrait-pic" class="one-third-width-column"></div>
+
+        <!-- Content holder -->
         <div class="two-thirds-width-column">
+
+            <!-- Tab box with 3 radio buttons -->
             <div class='tabs'>
 
+                <!-- First tab "Work history" (checked) -->
                 <input type='radio' id='r1' name='t' checked>
                 <label for='r1'><i class="fas fa-briefcase"></i></label>
                 <div class='content'>
@@ -42,14 +49,17 @@
                     <br>
                     <dl>
                         <dt class="bold">Sunclass Airlines/Thomas Cook Airlines 2009 - present</dt>
-                        <dd>- Started in Stavanger a cabin crew. Got promoted to cabin chief in 2017 and currently working as cabin base manager in Stockholm.</dd>
+                        <dd>- Started in Stavanger a cabin crew. Got promoted to cabin chief in 2017 and currently
+                            working as cabin base manager in Stockholm.</dd>
                         <dt class="bold">Ving Sweden 2007 - 2009</dt>
-                        <dd>- Travel guide working for the biggest travel agency in Sweden. Based in Greece (2007) and Spain (2008).</dd>
+                        <dd>- Travel guide working for the biggest travel agency in Sweden. Based in Greece (2007) and
+                            Spain (2008).</dd>
                         <dt class="bold">If insurance company 2006 - 2007</dt>
                         <dd>- Insurance advisor with a focus on selling.</dd>
-                      </dl>
+                    </dl>
                 </div>
 
+                <!-- Second tab "Studies" -->
                 <input type='radio' id='r2' name='t'>
                 <label for='r2'><i class="fas fa-graduation-cap"></i></label>
                 <div class='content'>
@@ -57,16 +67,18 @@
                     <br>
                     <dl>
                         <dt class="bold">Code Institute 2021 - present</dt>
-                        <dd>- Started in September 2021 and will be studying for 10 months to become a full-stack developer.</dd>
+                        <dd>- Started in September 2021 and will be studying for 10 months to become a full-stack
+                            developer.</dd>
                         <dt class="bold">Various courses:</dt>
                         <dd>- Labor law (4 days: 2021)</dd>
                         <dd>- "Employers responsibility concerning alcohol and drug abuse" (1 day: 2021)</dd>
                         <dd>- "Employers responsibility concerning rehabilitation"(1 day: 2021)</dd>
                         <dd>- Efficient e-mail communication (0,5 day: 2021)</dd>
                         <dd>- Leadership (2 days: 2017, 2 days: 2018)</dd>
-                      </dl>
+                    </dl>
                 </div>
-                
+
+                <!-- Third tab "Pictures & Videos" -->
                 <input type='radio' id='r3' name='t'>
                 <label for='r3'><i class="far fa-smile"></i></label>
                 <div class='content text-center'>
@@ -74,36 +86,47 @@
                     <br>
                     <a target="_blank" href="assets/images/IMG_2471.JPG">
                         <img src="assets/images/IMG_2471.JPG" alt="Me with a horse" class="about-me-pictures">
-                      </a>
-                      <a target="_blank" href="assets/images/IMG_3869.JPG">
+                    </a>
+                    <a target="_blank" href="assets/images/IMG_3869.JPG">
                         <img src="assets/images/IMG_3869.JPG" alt="Full body portrait" class="about-me-pictures">
-                      </a>
-                      <a target="_blank" href="assets/images/IMG_8523.JPG">
-                        <img src="assets/images/IMG_8523.JPG" alt="Portrait picture of me in garden" class="about-me-pictures">
-                      </a>
-                      <br><br><br>
-                      <p> Once I was working for a TV production company and one of the actors got sick so I filled the role. See my 13 seconds of fame!</p>
-                      <iframe id="yt-video" src="https://www.youtube.com/embed/-OTe1WhqsEg?start=256" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </a>
+                    <a target="_blank" href="assets/images/IMG_8523.JPG">
+                        <img src="assets/images/IMG_8523.JPG" alt="Portrait picture of me in garden"
+                            class="about-me-pictures">
+                    </a>
+                    <br><br><br>
+                    <p> Once I was working for a TV production company and one of the actors got sick so I filled the
+                        role. See my 13 seconds of fame!</p>
+                    <iframe id="yt-video" src="https://www.youtube.com/embed/-OTe1WhqsEg?start=256"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
-                   
+
+                <!-- Underline boarder that slides to selected tab -->
                 <div id='slider'></div>
-             </div>
+            </div>
         </div>
     </section>
 
+    <!-- Footer with links to my Social media -->
     <footer>
         <p class="text-center">
             Get Social with me!
         </p>
         <ul class="socials">
-            <li><a href="http://facebook.com" target="_blank" aria-label="Visit my Facebook Page (opens in a new tab)"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="http://twitter.com" target="_blank" aria-label="Visit my Twitter Page (opens in a new tab)"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="http://linkedin.com" target="_blank" aria-label="Visit my Linkedin Page (opens in a new tab)"><i class="fa fa-linkedin-square"></i></a></li>
-         </ul>
+            <li><a href="http://facebook.com" target="_blank"
+                    aria-label="Visit my Facebook Page (opens in a new tab)"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://twitter.com" target="_blank" aria-label="Visit my Twitter Page (opens in a new tab)"><i
+                        class="fa fa-twitter"></i></a></li>
+            <li><a href="http://linkedin.com" target="_blank"
+                    aria-label="Visit my Linkedin Page (opens in a new tab)"><i class="fa fa-linkedin-square"></i></a>
+            </li>
+        </ul>
     </footer>
 
-<!-- font awesome script -->
-<script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

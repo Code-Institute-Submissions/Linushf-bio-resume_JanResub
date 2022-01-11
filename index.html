@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!-- Header with links to 'home', 'about me' and 'contact' page -->
     <header>
         <a href="index.html">
             <h1 id="logo">I'm Linus</h1>
@@ -31,91 +32,117 @@
         </nav>
     </header>
     <section>
+        <!-- Portrait picture -->
         <div id="portrait-pic" class="one-third-width-column"></div>
+
+        <!-- Content holder -->
         <div class="two-thirds-width-column">
+
+            <!-- Tab box with 3 radio buttons -->
             <div class='tabs'>
 
+                <!-- First tab "Welcome" (checked) -->
                 <input type='radio' id='r1' name='t' checked>
                 <label for='r1'><i class="fas fa-door-open"></i></label>
                 <div class='content'>
-                    <h2 class="text-center">Welcome</h2> 
-                    <br><p>This website is a presentation page about myself as a person and as a full-stack developer. I created this site as a first milestone project for  <a href="https://codeinstitute.net/" target="_blank" aria-label="Go to Code Institute webpage (opens in a new tab)">Code Institute</a>. The thought of this site is to give others, and myself, easy access to what I've done, what I'm about to do, and what I’m looking to do.<br><br>You can find information about previous work, my hobbies, pictures, contact information, and much more when browsing my site.<br><br>I’m looking forward hearing from you and enjoy the rest of you day. </p>
+                    <h2 class="text-center">Welcome</h2>
+                    <br>
+                    <p>This website is a presentation page about myself as a person and as a full-stack developer. I
+                        created this site as a first milestone project for <a href="https://codeinstitute.net/"
+                            target="_blank" aria-label="Go to Code Institute webpage (opens in a new tab)">Code
+                            Institute</a>. The thought of this site is to give others, and myself, easy access to what
+                        I've done, what I'm about to do, and what I’m looking to do.<br><br>You can find information
+                        about previous work, my hobbies, pictures, contact information, and much more when browsing my
+                        site.<br><br>I’m looking forward hearing from you and enjoy the rest of you day. </p>
                 </div>
 
+                <!-- Second tab "Projects" -->
                 <input type='radio' id='r2' name='t'>
                 <label for='r2'><i class="fas fa-tasks"></i></label>
                 <div class='content'>
                     <h2 class="text-center">Projects</h2>
                     <table>
                         <tr>
-                          <th>Project Name</th>
-                          <th>Type</th>
-                          <th>Programming languages</th>
+                            <th>Project Name</th>
+                            <th>Type</th>
+                            <th>Programming languages</th>
                         </tr>
                         <tr>
-                          <td>Coders Coffeehouse (not published)</td>
-                          <td>Webpage</td>
-                          <td>HTML</td>
+                            <td>Coders Coffeehouse (not published)</td>
+                            <td>Webpage</td>
+                            <td>HTML</td>
                         </tr>
                         <tr>
-                          <td><a href="https://linushf.github.io/love-running" target="_blank" aria-label="View my Love Running page (Opens in new tab)">Love Running</a></td>
-                          <td>Webpage</td>
-                          <td>HTML, CSS</td>
+                            <td><a href="https://linushf.github.io/love-running" target="_blank"
+                                    aria-label="View my Love Running page (Opens in new tab)">Love Running</a></td>
+                            <td>Webpage</td>
+                            <td>HTML, CSS</td>
                         </tr>
                         <tr>
-                            <td><a href="https://linushf.github.io/dorotea-pool-bar/" aria-label="View my Dorotea Pool Bar page (Opens in new tab)">Dorotea Pool Bar</a> (In progress...)</td>
+                            <td><a href="https://linushf.github.io/dorotea-pool-bar/"
+                                    aria-label="View my Dorotea Pool Bar page (Opens in new tab)">Dorotea Pool Bar</a>
+                                (In progress...)</td>
                             <td>Webpage</td>
                             <td>HTML, CSS, JavaScript</td>
-                          </tr>
+                        </tr>
                     </table>
                 </div>
-                
+
+                <!-- Third tab "documents" -->
                 <input type='radio' id='r3' name='t'>
                 <label for='r3'><i class="fas fa-download"></i></label>
                 <div class='content'>
                     <h2 class="text-center">Downloadable reusme and side letter</h2>
                     <table>
                         <tr>
-                          <th>File</th>
-                          <th>Language</th>
+                            <th>File</th>
+                            <th>Language</th>
                         </tr>
                         <tr>
-                          <td><a href="assets/files/CV-Linus-Furubom-komprimerad.pdf" target="_blank" aria-label="View my Resume in Swedish (Opens in new tab">Resume</a></td>
-                          <td>Swedish</td>
+                            <td><a href="assets/files/CV-Linus-Furubom-komprimerad.pdf" target="_blank"
+                                    aria-label="View my Resume in Swedish (Opens in new tab">Resume</a></td>
+                            <td>Swedish</td>
                         </tr>
                         <tr>
-                          <td><a href="assets/files/Hejbrev.pdf" target="_blank" aria-label="View my Side Letter in Swedish (Opens in new tab">Side letter</a></td>
-                          <td>Swedish</td>
+                            <td><a href="assets/files/Hejbrev.pdf" target="_blank"
+                                    aria-label="View my Side Letter in Swedish (Opens in new tab">Side letter</a></td>
+                            <td>Swedish</td>
                         </tr>
                         <tr>
                             <td>Resume (In progress...)</td>
                             <td>English</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Side letter (In progress...)</td>
                             <td>English</td>
-                          </tr>
+                        </tr>
                     </table>
                 </div>
-                   
+
+                <!-- Underline boarder that slides to selected tab -->
                 <div id='slider'></div>
-             </div>
+            </div>
         </div>
     </section>
 
+    <!-- Footer with links to my Social media -->
     <footer>
         <p class="text-center">
             Get Social with me!
         </p>
         <ul class="socials">
-            <li><a href="http://facebook.com" target="_blank" aria-label="Visit my Facebook Page (opens in a new tab)"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="http://twitter.com" target="_blank" aria-label="Visit my Twitter Page (opens in a new tab)"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="http://linkedin.com" target="_blank" aria-label="Visit my Linkedin Page (opens in a new tab)"><i class="fa fa-linkedin-square"></i></a></li>
-         </ul>
+            <li><a href="http://facebook.com" target="_blank"
+                    aria-label="Visit my Facebook Page (opens in a new tab)"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://twitter.com" target="_blank" aria-label="Visit my Twitter Page (opens in a new tab)"><i
+                        class="fa fa-twitter"></i></a></li>
+            <li><a href="http://linkedin.com" target="_blank"
+                    aria-label="Visit my Linkedin Page (opens in a new tab)"><i class="fa fa-linkedin-square"></i></a>
+            </li>
+        </ul>
     </footer>
 
-<!-- font awesome script -->
-<script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

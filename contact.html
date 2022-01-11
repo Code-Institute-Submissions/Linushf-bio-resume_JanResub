@@ -13,6 +13,7 @@
 
 <body>
     <header>
+        <!-- Header with links to 'home', 'about me' and 'contact' page -->
         <a href="index.html">
             <h1 id="logo">I'm Linus</h1>
         </a>
@@ -31,51 +32,77 @@
         </nav>
     </header>
     <section>
+        <!-- Portrait picture -->
         <div id="portrait-pic" class="one-third-width-column"></div>
+
+        <!-- Content holder -->
         <div class="two-thirds-width-column">
+
+            <!-- Tab box with 3 radio buttons -->
             <div class='tabs'>
 
+                <!-- First tab "Phone" (checked) -->
                 <input type='radio' id='r1' name='t' checked>
                 <label for='r1'><i class="fas fa-phone-square-alt"></i></label>
-                <div class='content'><h2 class="text-center">Call me <i class="fas fa-phone-volume"></i><br><a href="tel:+46735962936" class="no-decoration">+46 735 96 29 36</a></h2></div>
+                <div class='content'>
+                    <h2 class="text-center">Call me <i class="fas fa-phone-volume"></i><br><a href="tel:+46735962936"
+                            class="no-decoration">+46 735 96 29 36</a></h2>
+                </div>
 
+                <!-- Second tab "E-mail" -->
                 <input type='radio' id='r2' name='t'>
                 <label for='r2'><i class="far fa-envelope"></i></label>
-                <div class='content'><h2 class="text-center"><a href="mailto:linus.furubom@gmail.com" class="no-decoration">send me an e-mail</a></h2>
+                <div class='content'>
+                    <h2 class="text-center"><a href="mailto:linus.furubom@gmail.com" class="no-decoration">send me an
+                            e-mail</a></h2>
                 </div>
-                
+
+                <!-- Third tab "Social media" -->
                 <input type='radio' id='r3' name='t'>
                 <label for='r3'><i class="fas fa-users"></i></label>
-                <div class='content'><h2 class="text-center">Find me on Social Media</h2>
+                <div class='content'>
+                    <h2 class="text-center">Find me on Social Media</h2>
                     <hr>
 
-                        <ul id="socials-tab">
-                            <li><a href="http://facebook.com" target="_blank" aria-label="Visit my Facebook Page (opens in a new tab)"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="http://twitter.com" target="_blank" aria-label="Visit my Twitter Page (opens in a new tab)"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="http://linkedin.com" target="_blank" aria-label="Visit my Linkedin Page (opens in a new tab)"><i class="fa fa-linkedin-square"></i></a></li>
-                         </ul>
+                    <ul id="socials-tab">
+                        <li><a href="http://facebook.com" target="_blank"
+                                aria-label="Visit my Facebook Page (opens in a new tab)"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li><a href="http://twitter.com" target="_blank"
+                                aria-label="Visit my Twitter Page (opens in a new tab)"><i
+                                    class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://linkedin.com" target="_blank"
+                                aria-label="Visit my Linkedin Page (opens in a new tab)"><i
+                                    class="fa fa-linkedin-square"></i></a></li>
+                    </ul>
 
-                    
+
                 </div>
-                   
+
+                <!-- Underline boarder that slides to selected tab -->
                 <div id='slider'></div>
-             </div>
+            </div>
         </div>
     </section>
 
+    <!-- Footer with links to my Social media -->
     <footer>
         <p class="text-center">
             Get Social with me!
         </p>
         <ul class="socials">
-            <li><a href="http://facebook.com" target="_blank" aria-label="Visit my Facebook Page (opens in a new tab)"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="http://twitter.com" target="_blank" aria-label="Visit my Twitter Page (opens in a new tab)"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="http://linkedin.com" target="_blank" aria-label="Visit my Linkedin Page (opens in a new tab)"><i class="fa fa-linkedin-square"></i></a></li>
-         </ul>
+            <li><a href="http://facebook.com" target="_blank"
+                    aria-label="Visit my Facebook Page (opens in a new tab)"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://twitter.com" target="_blank" aria-label="Visit my Twitter Page (opens in a new tab)"><i
+                        class="fa fa-twitter"></i></a></li>
+            <li><a href="http://linkedin.com" target="_blank"
+                    aria-label="Visit my Linkedin Page (opens in a new tab)"><i class="fa fa-linkedin-square"></i></a>
+            </li>
+        </ul>
     </footer>
 
-<!-- font awesome script -->
-<script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
