@@ -179,17 +179,23 @@ tr:nth-child(even) {
   background-color: #F2EEB3;
 }
 
-/* Thumbnail pictures in about me section */
+/* Thumbnail pictures and video in about me section */
 
-#about-me-pictures {
+.about-me-pictures {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px; 
   width: 150px;
 }
 
-#about-me-pictures:hover {
+.about-me-pictures:hover {
   border: 1px solid #68788C;
+}
+
+#yt-video {
+  width: 560px;
+  height: 315px;
+  border: 0;
 }
 
 /* Social tabs on contact page */
