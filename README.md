@@ -18,7 +18,7 @@ The purpose is to get in contact with potential employers and show off my work.
 
 This page is a milestone project to become a Full Stack Developer. The course is provided by [Code Inistitute](https://codeinstitute.net/).
 
-![Responsice Mockup](assets/images/amiresp.png "Resonsive mockup picture")
+![Responsice Mockup](docs/tests/amiresp.png "Resonsive mockup picture")
 
 ## Features
 The features on this page are coded in a way so the user can navigate anywhere with just 1 click. The navigation bar and footer are therefore on all pages and identically  designed.
@@ -37,15 +37,15 @@ The features on this page are coded in a way so the user can navigate anywhere w
 - __Landing Page__
 
     The landing page is the home page. There are three tabs for the user to quickly access my ongoing projects, a downloadable resume, and a side letter.
-    ![Landing page](assets/images/welcome.png "Landing page")
+    ![Landing page](docs/screenshots/welcome.png "Landing page")
 - __About Me Page__
 
     The page is provided with three tabs. One to view my work history, one to view my education och one tab to view some pictures of me. Always good to put a face to text. 
-    ![About me page](assets/images/aboutme.png "About me page")
+    ![About me page](docs/screenshots/aboutme.png "About me page")
 - __Contact page__
 
     The page is provided with three tabs. Super easy - one tab for e-mail, one for telephone number, and one for social media. 
-    ![Contact page](assets/images/contact.png "Contact page")
+    ![Contact page](docs/screenshots/contact.png "Contact page")
 
 
 ## Technologies
@@ -64,12 +64,12 @@ The features on this page are coded in a way so the user can navigate anywhere w
 ## Testing
 - __Validator__
     - HTML - WC3 - no errors were returned when passing through the official W3C Validator
-    ![W3C validator test](assets/images/W3c-html.png "W3C validator test")
+    ![W3C validator test](docs/tests/W3c-html.png "W3C validator test")
     - CSS - Jigsaw - no errors were returned when passing through the official (jigsaw) Validator
     - Accessibility - I generated a report in devtool lighthouse to make sure that colors and fonts are easy to read and accessible.
     
     
-    ![W3C validator test](assets/images/lighthouse.png "Lighthouse test")
+    ![W3C validator test](docs/tests/lighthouse.png "Lighthouse test")
 
 - __Browsers__
     - I have tested that this page works when using different web browsers such as Safari, Chrome, Firefox, and Edge. 
