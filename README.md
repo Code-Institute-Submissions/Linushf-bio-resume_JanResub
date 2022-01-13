@@ -7,7 +7,6 @@
 * [User stories](#user-stories)
 * [Features](#features)
 * [Technologies](#technologies)
-* [Wireframes](#wireframes)
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credit](#credit)
@@ -24,7 +23,34 @@ This page is a milestone project to become a Full Stack Developer. The course is
 ![Responsice Mockup](docs/tests/amiresp.png "Resonsive mockup picture")
 
 ## User stories
-As visiting user, I would like to know the professional experience of site ower
+- __Design__
+
+  - The design is simplistic and uses contrast colors to display the main content. It has a clear navigation menu and it is easy to go from one page to another.
+  - The fonts are easy to read and contribute to a better user experience.
+
+- __Visual Idea__
+  - Wireframes were created in Windows Paint.
+
+![Wireframe desk](docs//wireframes/desk.png)
+
+![Wireframe iPad](docs/wireframes/ipad.png)
+
+![Wireframe mobile](docs/wireframes/iphone.png)
+  - The ideas have since grown little by little as project is made and features has been added.
+
+
+- __User Stories__
+
+    - As a user I want to know what the page is about.
+
+    - As a user I want to navigate between pages.
+
+    - As a user I want to be able to make contact with site owner.
+
+    - As a user I would like to view images and read resume.
+
+    - As a user I want the social media links to work.
+
 
 ## Features
 The features on this page are coded in a way so the user can navigate anywhere with just 1 click. The navigation bar and footer are therefore on all pages and identically  designed.
@@ -63,21 +89,15 @@ There are some more features that I would've like to add if I had more time.
     An easier way to view pictures of me would be to have a slide show instead of having the pictures as pop-ups.
 
 ## Technologies
-- __Languages__
-    - HTML5
-    - CSS3
-- __Framework, Libaries & Programs Used__
-    - Git - for the workspace 
-    - Github - for the deployment
-    - Font Awesome - for the symbols
+- __Used__
+    - GitPod for developing the code
+    - GitHub for deploying the project
+    - HTML code
+    - CSS for styling
+    - Font Awesome - web page for icons
     - Google Fonts - for the fonts
     - Adobe Color - for the color scheme
-    - W3 School - for tables
-    - CodeConvey - for the tab funtion
-
-## Wireframes
-I used Balsamiq to bulid these wiresframes.
-    ![Wireframes](docs/tests/wireframes.png "Wireframes")
+    - DevTools for developing the code
 
 ## Testing
 - __Validator__
@@ -89,21 +109,49 @@ I used Balsamiq to bulid these wiresframes.
     
     ![W3C validator test](docs/tests/lighthouse.png "Lighthouse test")
 
-- __Test cases__
+- __User stories testing__
 
-- __Fixed bugs__
+    - As a user I want to know what the page is about.
+        - On the landing page, the user is greeted with webpage information och what to find on the webpage.
+            ![Landing page](docs/screenshots/pres.png "Landing page")
+
+    - As a user I want to navigate between pages.
+        - Navigation links are at the top right. The user can identify the page that they are on by viewing the menu where the active page is in uppercase letters. Navigation is made easy and consistent.
+
+    - As a user I want to be able to make contact with site owner.
+        - In the footer, there are icon links to my social media. The footer is displayed on all pages and if the user clicks 'contacts' in the menu they'll be presented with more contact information such as e-mail and telephone number.
+
+    - As a user I would like to view images and read resume.
+        - When the user navigates to the download symbol on the home page the files are presented in a table for the user to choose which resume file to download.
+
+    - As a user I want the social media links to work.
+        - The social media link in the footer works. If the user navigates to the contact page and clicks on the social media tab the user will also get three options of which social media they would like to open. All links are opened in a new window.
+
+
+- __Bugs__
+    - There are no bugs unfixed but I had some challenges creating the slider so it slided to the correct tab, I had to adjust some of the CSS to get it fixed. 
+    - When displaying the webpage of smaller screens I choose to change to display of profile picture to 'None' to focus on what is important for the user.
 
 - __Browsers__
     - I have tested that this page works when using different web browsers such as Safari, Chrome, Firefox, and Edge. 
 - __Responsiveness__ 
     - I have confirmed that the design is responsive and all functions work on different screen sizes. 
+    - Iphone XR example: 
+    
+    ![Test Iphone](docs/screenshots/testiphone.png "Iphone test")
 
 ## Deployment
 
-- __Gitpod__
+- To develope my project i opened repo in gitpod, first with the green button and then reopened the workspace from gitpod.io/workspaces.
+Made changes to files and saved them
+Did a `git add .`
+Did a `git commit -m "message"`
+Did a `git push` to push my work into GitHub.
 
-
-- __GitHub pages__
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Main Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a display to indicate the successful deployment. 
 
 ## Credit
 - __Code__
